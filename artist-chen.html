@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Maya Chen — The Unsigned Gallery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="index.html">The <span>Unsigned</span> Gallery</a>
+      <button class="menu-btn" aria-label="Menu"><span></span></button>
+      <nav>
+        <a href="index.html">Works</a>
+        <a class="active" href="artists.html">Artists</a>
+        <a href="about.html">About</a>
+        <a href="enquire.html">Enquire</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="artist-hero">
+      <img src="images/artist-chen.jpg" alt="Maya Chen" />
+      <div>
+        <p class="eyebrow">Artist</p>
+        <h1>Maya Chen</h1>
+        <p class="role">Painting · London · b. 1998</p>
+        <p class="bio">Maya paints large, quiet abstractions. Colour is laid in thin layers until a field of terracotta, bone or slate feels settled. Marks are few. She trained in textile design before moving to painting, and the canvases still have the patience of cloth. This is her first gallery representation.</p>
+      </div>
+    </section>
+
+    <section class="works-grid">
+      <article class="work" data-work
+        data-img="images/chen-field.jpg"
+        data-title="Field II"
+        data-sub="Maya Chen · Acrylic on canvas · 70 × 100 cm"
+        data-note="Available."
+        data-enquire="Maya Chen — Field II">
+        <div class="work-frame">
+          <img src="images/chen-field.jpg" alt="Abstract painting Field II" />
+        </div>
+        <div class="work-meta">
+          <div>
+            <h3>Field II</h3>
+            <div class="sub">Acrylic on canvas · 70 × 100 cm</div>
+          </div>
+          <div class="price">£2,200</div>
+        </div>
+      </article>
+
+      <article class="work" data-work
+        data-img="images/chen-horizon.jpg"
+        data-title="Horizon"
+        data-sub="Maya Chen · Acrylic on canvas · 60 × 90 cm"
+        data-note="Available. Soft rectangles of grey and bone with a single gold line."
+        data-enquire="Maya Chen — Horizon">
+        <div class="work-frame">
+          <img src="images/chen-horizon.jpg" alt="Geometric abstract painting Horizon" />
+        </div>
+        <div class="work-meta">
+          <div>
+            <h3>Horizon</h3>
+            <div class="sub">Acrylic on canvas · 60 × 90 cm</div>
+          </div>
+          <div class="price">£1,650</div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <span>The Unsigned Gallery</span>
+    <a href="enquire.html?work=Maya%20Chen">Enquire about this artist</a>
+  </footer>
+
+  <div class="lightbox" role="dialog" aria-modal="true">
+    <button class="lightbox-close" aria-label="Close">×</button>
+    <div class="lightbox-card">
+      <img alt="" />
+      <div class="lightbox-info">
+        <h3></h3>
+        <div class="sub"></div>
+        <p></p>
+        <a class="btn" href="enquire.html">Enquire</a>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

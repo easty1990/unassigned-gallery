@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Amira Okonkwo — The Unsigned Gallery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="index.html">The <span>Unsigned</span> Gallery</a>
+      <button class="menu-btn" aria-label="Menu"><span></span></button>
+      <nav>
+        <a href="index.html">Works</a>
+        <a class="active" href="artists.html">Artists</a>
+        <a href="about.html">About</a>
+        <a href="enquire.html">Enquire</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="artist-hero">
+      <img src="images/artist-okonkwo.jpg" alt="Amira Okonkwo" />
+      <div>
+        <p class="eyebrow">Artist</p>
+        <h1>Amira Okonkwo</h1>
+        <p class="role">Figurative · Manchester · b. 1992</p>
+        <p class="bio">Amira works from life and from memory. Portraits are slow. Figures, when they appear in rooms, are often turned away. She uses oil, charcoal and occasional pastel, and is interested in how little expression a face needs in order to hold a room. She teaches two days a week and paints the rest.</p>
+      </div>
+    </section>
+
+    <section class="works-grid">
+      <article class="work" data-work
+        data-img="images/okonkwo-portrait.jpg"
+        data-title="Afternoon"
+        data-sub="Amira Okonkwo · Oil on linen · 60 × 90 cm"
+        data-note="Available."
+        data-enquire="Amira Okonkwo — Afternoon">
+        <div class="work-frame">
+          <img src="images/okonkwo-portrait.jpg" alt="Portrait Afternoon" />
+        </div>
+        <div class="work-meta">
+          <div>
+            <h3>Afternoon</h3>
+            <div class="sub">Oil on linen · 60 × 90 cm</div>
+          </div>
+          <div class="price">£2,650</div>
+        </div>
+      </article>
+
+      <article class="work" data-work
+        data-img="images/okonkwo-figure.jpg"
+        data-title="The Room"
+        data-sub="Amira Okonkwo · Oil on canvas · 90 × 140 cm"
+        data-note="Available. A figure seen from behind in a pale interior."
+        data-enquire="Amira Okonkwo — The Room">
+        <div class="work-frame">
+          <img src="images/okonkwo-figure.jpg" alt="Figure in a pale room" />
+        </div>
+        <div class="work-meta">
+          <div>
+            <h3>The Room</h3>
+            <div class="sub">Oil on canvas · 90 × 140 cm</div>
+          </div>
+          <div class="price">£3,400</div>
+        </div>
+      </article>
+
+      <article class="work" data-work
+        data-img="images/okonkwo-hands.jpg"
+        data-title="Holding"
+        data-sub="Amira Okonkwo · Charcoal and pastel on paper · 42 × 59 cm"
+        data-note="Available."
+        data-enquire="Amira Okonkwo — Holding">
+        <div class="work-frame">
+          <img src="images/okonkwo-hands.jpg" alt="Drawing of hands holding a plant" />
+        </div>
+        <div class="work-meta">
+          <div>
+            <h3>Holding</h3>
+            <div class="sub">Charcoal and pastel · 42 × 59 cm</div>
+          </div>
+          <div class="price">£640</div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <span>The Unsigned Gallery</span>
+    <a href="enquire.html?work=Amira%20Okonkwo">Enquire about this artist</a>
+  </footer>
+
+  <div class="lightbox" role="dialog" aria-modal="true">
+    <button class="lightbox-close" aria-label="Close">×</button>
+    <div class="lightbox-card">
+      <img alt="" />
+      <div class="lightbox-info">
+        <h3></h3>
+        <div class="sub"></div>
+        <p></p>
+        <a class="btn" href="enquire.html">Enquire</a>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

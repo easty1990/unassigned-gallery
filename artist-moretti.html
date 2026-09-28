@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Luca Moretti — The Unsigned Gallery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="index.html">The <span>Unsigned</span> Gallery</a>
+      <button class="menu-btn" aria-label="Menu"><span></span></button>
+      <nav>
+        <a href="index.html">Works</a>
+        <a class="active" href="artists.html">Artists</a>
+        <a href="about.html">About</a>
+        <a href="enquire.html">Enquire</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="artist-hero">
+      <img src="images/artist-moretti.jpg" alt="Luca Moretti" />
+      <div>
+        <p class="eyebrow">Artist</p>
+        <h1>Luca Moretti</h1>
+        <p class="role">Still life &amp; paper · Bristol · b. 1996</p>
+        <p class="bio">Luca moves between traditional still life and torn-paper studies. The paintings are small and exact. The works on paper are looser: ink lines over washed indigo and ochre. He came to the UK to study architecture, left the course, and kept the habit of looking at rooms and tables. Fruit, cloth, a window.</p>
+      </div>
+    </section>
+
+    <section class="works-grid">
+      <article class="work" data-work
+        data-img="images/moretti-lemons.jpg"
+        data-title="Two Lemons"
+        data-sub="Luca Moretti · Oil on panel · 40 × 50 cm"
+        data-note="Available."
+        data-enquire="Luca Moretti — Two Lemons">
+        <div class="work-frame">
+          <img src="images/moretti-lemons.jpg" alt="Still life Two Lemons" />
+        </div>
+        <div class="work-meta">
+          <div>
+            <h3>Two Lemons</h3>
+            <div class="sub">Oil on panel · 40 × 50 cm</div>
+          </div>
+          <div class="price">£980</div>
+        </div>
+      </article>
+
+      <article class="work" data-work
+        data-img="images/moretti-peonies.jpg"
+        data-title="White Peonies"
+        data-sub="Luca Moretti · Oil on canvas · 50 × 70 cm"
+        data-note="Available."
+        data-enquire="Luca Moretti — White Peonies">
+        <div class="work-frame">
+          <img src="images/moretti-peonies.jpg" alt="Painting of white peonies in a dark vase" />
+        </div>
+        <div class="work-meta">
+          <div>
+            <h3>White Peonies</h3>
+            <div class="sub">Oil on canvas · 50 × 70 cm</div>
+          </div>
+          <div class="price">£1,240</div>
+        </div>
+      </article>
+
+      <article class="work" data-work
+        data-img="images/moretti-window.jpg"
+        data-title="Window Study"
+        data-sub="Luca Moretti · Ink and wash on paper · 38 × 52 cm"
+        data-note="Available. Torn paper, indigo and ochre, with a drawn city window."
+        data-enquire="Luca Moretti — Window Study">
+        <div class="work-frame">
+          <img src="images/moretti-window.jpg" alt="Mixed media window study" />
+        </div>
+        <div class="work-meta">
+          <div>
+            <h3>Window Study</h3>
+            <div class="sub">Ink and wash on paper · 38 × 52 cm</div>
+          </div>
+          <div class="price">£520</div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <span>The Unsigned Gallery</span>
+    <a href="enquire.html?work=Luca%20Moretti">Enquire about this artist</a>
+  </footer>
+
+  <div class="lightbox" role="dialog" aria-modal="true">
+    <button class="lightbox-close" aria-label="Close">×</button>
+    <div class="lightbox-card">
+      <img alt="" />
+      <div class="lightbox-info">
+        <h3></h3>
+        <div class="sub"></div>
+        <p></p>
+        <a class="btn" href="enquire.html">Enquire</a>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

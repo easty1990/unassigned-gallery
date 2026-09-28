@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Enquire — The Unsigned Gallery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="index.html">The <span>Unsigned</span> Gallery</a>
+      <button class="menu-btn" aria-label="Menu"><span></span></button>
+      <nav>
+        <a href="index.html">Works</a>
+        <a href="artists.html">Artists</a>
+        <a href="about.html">About</a>
+        <a class="active" href="enquire.html">Enquire</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <article class="prose">
+      <h1>Enquire</h1>
+      <p>Ask about a work, a viewing, or representation. We reply by email.</p>
+
+      <form>
+        <label>Name
+          <input type="text" name="name" required />
+        </label>
+        <label>Email
+          <input type="email" name="email" required />
+        </label>
+        <label>Work or artist
+          <input type="text" name="work" placeholder="Optional" />
+        </label>
+        <label>Message
+          <textarea name="message" required></textarea>
+        </label>
+        <button type="submit">Send</button>
+      </form>
+    </article>
+  </main>
+
+  <footer>
+    <span>The Unsigned Gallery</span>
+    <span>hello@theunsigned.gallery</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

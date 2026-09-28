@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>James Whitfield — The Unsigned Gallery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="index.html">The <span>Unsigned</span> Gallery</a>
+      <button class="menu-btn" aria-label="Menu"><span></span></button>
+      <nav>
+        <a href="index.html">Works</a>
+        <a class="active" href="artists.html">Artists</a>
+        <a href="about.html">About</a>
+        <a href="enquire.html">Enquire</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="artist-hero">
+      <img src="images/artist-whitfield.jpg" alt="James Whitfield" />
+      <div>
+        <p class="eyebrow">Artist</p>
+        <h1>James Whitfield</h1>
+        <p class="role">Landscape · Dorset · b. 1974</p>
+        <p class="bio">James paints the weather more than the view. Fields, hedges and a short stretch of coast near Lyme, usually under high cloud. He works in oil, often beginning outside and finishing the picture over several weeks. He has shown locally for years; the gallery is the first to place his work beside contemporary painting.</p>
+      </div>
+    </section>
+
+    <section class="works-grid">
+      <article class="work" data-work
+        data-img="images/whitfield-valley.jpg"
+        data-title="Late Meadow"
+        data-sub="James Whitfield · Oil on canvas · 80 × 100 cm"
+        data-note="Available."
+        data-enquire="James Whitfield — Late Meadow">
+        <div class="work-frame">
+          <img src="images/whitfield-valley.jpg" alt="Landscape painting Late Meadow" />
+        </div>
+        <div class="work-meta">
+          <div>
+            <h3>Late Meadow</h3>
+            <div class="sub">Oil on canvas · 80 × 100 cm</div>
+          </div>
+          <div class="price">£1,850</div>
+        </div>
+      </article>
+
+      <article class="work" data-work
+        data-img="images/whitfield-sea.jpg"
+        data-title="One Boat"
+        data-sub="James Whitfield · Oil on canvas · 70 × 100 cm"
+        data-note="Available. A grey morning off the Dorset coast."
+        data-enquire="James Whitfield — One Boat">
+        <div class="work-frame">
+          <img src="images/whitfield-sea.jpg" alt="Seascape with a single boat" />
+        </div>
+        <div class="work-meta">
+          <div>
+            <h3>One Boat</h3>
+            <div class="sub">Oil on canvas · 70 × 100 cm</div>
+          </div>
+          <div class="price">£1,720</div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <span>The Unsigned Gallery</span>
+    <a href="enquire.html?work=James%20Whitfield">Enquire about this artist</a>
+  </footer>
+
+  <div class="lightbox" role="dialog" aria-modal="true">
+    <button class="lightbox-close" aria-label="Close">×</button>
+    <div class="lightbox-card">
+      <img alt="" />
+      <div class="lightbox-info">
+        <h3></h3>
+        <div class="sub"></div>
+        <p></p>
+        <a class="btn" href="enquire.html">Enquire</a>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
